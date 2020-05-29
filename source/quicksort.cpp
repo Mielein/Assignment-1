@@ -43,7 +43,6 @@ int main(){
     for(int j = 0; j < n; ++j){
     std::cin>>a[j];    
     }
-    
     quicksort(a, 0, sizeof(a));
     std::cout<<"Your array sorted by quicksort is: \n"<<std::endl;
     printArray(a);
